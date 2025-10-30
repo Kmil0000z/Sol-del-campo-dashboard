@@ -93,7 +93,7 @@ function ClienteDelMes() {
     <Card elevation={6} sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography variant="h6" color="textSecondary" gutterBottom>
-          <StarIcon sx={{ verticalAlign: 'middle', mr: 1 }} color="warning" /> Cliente del Mes
+          <StarIcon sx={{ verticalAlign: 'middle', mr: 1 }} color="warning" /> Cliente Estrella
         </Typography>
         
         {loading ? (
